@@ -71,7 +71,7 @@ This project utilizes multiple publicly available rice grain datasets along with
 ## 1️⃣ Rice Variety Dataset
 
 **🔗 Dataset:**  
-`<Rice Variety Dataset Link>`
+``
 
 ### Description
 
@@ -110,17 +110,23 @@ The dataset was used to train the **Rice Defect Classification CNN**.
 ## 3️⃣ Rice Grading Dataset
 
 **🔗 Dataset:**  
-`<Rice Grading Dataset Link>`
+`https://www.kaggle.com/datasets/visionaryscript/rice-train`
 
 ### Description
 
-This dataset contains **bulk rice images** categorized into quality grades:
+This dataset contains **bulk rice images** along with individual defect classes categorized into quality grades and defects respectively:
 
 - Premium
 - Grade 1
 - Grade 2
 - Grade 3
 - Grade 4
+- Standard
+
+- broken
+- chalky
+- damaged
+- discoloured
 
 Each image contains multiple rice grains representing real-world rice samples.
 
@@ -129,7 +135,7 @@ Each image contains multiple rice grains representing real-world rice samples.
 ## 4️⃣ YOLOv8 Detection Dataset
 
 **🔗 Dataset:**  
-`<YOLO Annotation Dataset Link>`
+`https://www.kaggle.com/datasets/gpraveenkumar2005/yolov8-rice`
 
 ### Description
 
@@ -140,7 +146,7 @@ This dataset was used to train the **YOLOv8 Rice Detection Model**.
 ---
 
 ## 5️⃣ Real-Time Dataset
-
+`https://www.kaggle.com/datasets/gpraveenkumar2005/datasets678/data`
 Around **50 real rice images** were captured under different lighting conditions and augmented to approximately **200 images** for evaluation and deployment testing.
 
 ---
